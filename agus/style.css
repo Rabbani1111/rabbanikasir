@@ -1,0 +1,46 @@
+.input-field-with-icon {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 2em;
+}
+ 
+.input-field-with-icon label {
+    color: #333;     /* Warna: Purple */
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+ 
+.input-field-with-icon input[type="text"],
+.input-field-with-icon input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 0.5em 1em 0.5em 0;
+}
+ 
+.input-field-with-icon input[type="text"]:focus,
+.input-field-with-icon input[type="password"]:focus {
+    border-bottom: 1px solid #3998B3;
+    outline: none;
+}
+ 
+.input-field-with-icon .icon {
+    color: #3998B3;     /* Warna: Blue */
+}
+ 
+.input-field-with-icon .icon-envelope:before {
+    display: inline-block;
+    font-family: "FontAwesome";
+    content: "\f0e0";
+}
+.input-field-with-icon .icon-lock:before {
+    display: inline-block;
+    font-family: "FontAwesome";
+    content: "\f023";
+}
